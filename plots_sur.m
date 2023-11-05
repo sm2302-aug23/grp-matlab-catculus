@@ -4,7 +4,7 @@ y=[3.5 4 3 2 1.25 0.25 1 1.75 2.5 2.0 1.25 1.5 2.25 1.5 1.1 1.75 2.5 3.0 2.70 2.
 
 n=length(x);
 t= 0:n-1; % Parametric coordinate t
-tt= 0:0.01:n-1; % More dense coor tt fir spline interpolation
+tt= 0:0.01:n-1; % More dense coordinate tt for spline interpolation
 
 % Compute spline interpolation
 xx= spline(t,x,tt);
