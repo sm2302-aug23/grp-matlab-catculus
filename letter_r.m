@@ -9,7 +9,7 @@ tt = 0:0.1:n-1;
 xx = spline(t, x, tt);
 yy = spline(t, y, tt);
 
-figure(1)
+figure(3)
 plot(xx, yy, 'k', 'LineWidth', 1.5)
 hold on
 plot (x, y, 'bo', 'MarkerFaceColor', 'b')
