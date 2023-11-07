@@ -9,3 +9,5 @@ Understand the sample code given in the [`Group2-2023.pdf`](Group2-2023.pdf) doc
 
 Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and marking scheme.
 
+Screenshot of cursive word "almond"
+![Cursive word almond](cursive_almond.PNG)
