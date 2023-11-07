@@ -44,13 +44,13 @@ y = [1 1.25 1 0.6 0.3 0.4 1.8 1.2 0.4 0.45 1];
 
 n = length(x);
 t = 0:n-1;
-tt = 0:0.1:n-1;
+tt = 0:0.01:n-1;
 
 xx = spline(t, x, tt);
 yy = spline(t, y, tt);
 
 plot(xx, yy, 'k', 'LineWidth', 1.5)
-x_position=max(xx);
+x_position=max(xx)-0.5;
 end
 
 grid on
