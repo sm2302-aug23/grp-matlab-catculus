@@ -1,4 +1,4 @@
-function plotWord(name)
+function plotWord(inputString)
 
 %Initializing a figure 
 figure;
@@ -7,14 +7,11 @@ hold on;
 %Initializing x_position to make sure letters plotted be next to each other
 x_position=0;
 
-name=lower(name)
-
-for i=1:length(name)
-    currentletter=name(i);
+for i=1:length(inputString)
+    currentletter=inputString(i);
 
  switch(currentletter)
      case 'a'
-         cursive_letter='a'
 % Define data points for x and y coordinates
 x=[0.5 0.75 1.25 0.75 0.5 0.8 1.25 1.4 1.5 1.8 2] + x_position;
 y=[1 1.25 1.2 1.25 0.75 0.25 0.7 1.2 0.25 0.3 1];
@@ -53,7 +50,7 @@ xx = spline(t, x, tt);
 yy = spline(t, y, tt);
 
 plot(xx, yy, 'k', 'LineWidth', 1.5)
-x_position=max(xx)-3;
+x_position=max(xx)-2.7;
 end
 
 grid on
@@ -61,7 +58,6 @@ title('Spine Interpolation of Cursive word')
 xlabel('x')
 ylabel('y')
 set(gca, 'FontSize', 10, 'LineWidth', 1)
-grid on
 
 end
 
