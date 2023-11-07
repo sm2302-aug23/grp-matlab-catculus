@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/i8q0vJZ5)
 # Group Assignment (MATLAB)
 
 This repository contains instructions for SM-2302 MATLAB group assignment.
@@ -8,3 +9,9 @@ Understand the sample code given in the [`Group2-2023.pdf`](Group2-2023.pdf) doc
 
 Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and marking scheme.
 
+Screenshot of cursive word "almond"
+![Cursive word almond](cursive_almond.PNG)
+
+
+Screenshot of cursive names
+![Names in cursive](cursiveNames.PNG)
