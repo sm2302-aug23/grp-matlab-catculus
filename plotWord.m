@@ -50,7 +50,7 @@ xx = spline(t, x, tt);
 yy = spline(t, y, tt);
 
 plot(xx, yy, 'k', 'LineWidth', 1.5)
-x_position=max(xx)-2.7;
+x_position=max(xx);
 end
 
 grid on
