@@ -1,13 +1,10 @@
-function plotWord(name)
+function [cursive_name] = plotWord(name)
 
-%Initializing a figure 
-figure;
-hold on;
+%Initializing cursive name
+cursive_name=''
 
 %Initializing x_position to make sure letters plotted be next to each other
 x_position=0;
-
-name=lower(name)
 
 for i=1:length(name)
     currentletter=name(i);
@@ -53,9 +50,10 @@ xx = spline(t, x, tt);
 yy = spline(t, y, tt);
 
 plot(xx, yy, 'k', 'LineWidth', 1.5)
-x_position=max(xx)-3;
-end
-
+hold on
+x_position=max(xx)
+plot (x, y, 'bo', 'MarkerFaceColor', 'b')
+axis([-0.2 6 -0.2 4.5])
 grid on
 title('Spine Interpolation of Cursive word')
 xlabel('x')
@@ -64,4 +62,4 @@ set(gca, 'FontSize', 10, 'LineWidth', 1)
 grid on
 
 end
-
+end
