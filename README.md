@@ -11,3 +11,7 @@ Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and
 
 Screenshot of cursive word "almond"
 ![Cursive word almond](cursive_almond.PNG)
+
+
+Screenshot of cursive names
+![Names in cursive](cursiveNames.PNG)
